@@ -43,7 +43,7 @@ Module main()
         Call printData(minutesAllowed, minutesUsed, totalDue, minutesOver)
         Display “Do you want to end program? yes or no”
         Input  endProgram
-        While endProgram != “yes” or endProgram != “no”
+        While endProgram != “yes” and endProgram != “no”
             Display “Please enter yes or no”
             Display “Do you want to end program? yes or no”
             Input endProgram
