@@ -93,6 +93,7 @@ def calcTotal(minsAllowed, minsUsed):
 #   and returned.
 def f_num(n):
     if isinstance(n,float):
+        # This uses python's ternary operation method.
         n = '{}'.format(int(n)) if n.is_integer() else '{:.2f}'.format(n)
     else:
         n = '{}'.format(n)
